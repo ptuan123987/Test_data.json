@@ -1,6 +1,6 @@
 POST /_bulk
 { "create": { "_index": "us", "_id": "1" }}
-{ "type" : "user ","email" : "john@smith.com", "name" : "John Smith", "username" : "@john" }
+{ "type" : "user","email" : "john@smith.com", "name" : "John Smith", "username" : "@john" }
 { "create": { "_index": "gb", "_id": "2" }}
 { "type" : "user","email" : "mary@jones.com", "name" : "Mary Jones", "username" : "@mary" }
 { "create": { "_index": "gb", "_id": "3" }}
